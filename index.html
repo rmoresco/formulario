@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="formulario" method="post" action="/send.php">
+        <!-- Campo de entrada de usuario -->
+        Usuario:`
+        <input type="text" name="nombre" placeholder="Por ejemplo, Juan" />
+        <!-- Campo de entrada de password -->
+        Password:
+        <input type="password" name="pass" placeholder="Contraseña" />
+        <!-- Campo oculto: Este campo no se verá en el navegador -->
+        <input type="hidden" name="informacion" value="72625" />
+      </form>
+</body>
+</html>
